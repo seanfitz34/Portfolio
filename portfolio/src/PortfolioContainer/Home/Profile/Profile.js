@@ -63,7 +63,7 @@ export default function Profile() {
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
-        </div>
+        </div>ç
         <div className="profile-picture">
           <div className="profile-picture-background"></div>
         </div>
