@@ -1,0 +1,55 @@
+.heading-container h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 600px;
+  font-family: "Poppins Bold";
+}
+
+.heading-container p {
+  display: flex;
+  margin: 0 0 0 600px;
+  font-size: 16px;
+}
+.about-me-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 800px;
+  margin-right: 100px;
+  font-family: "Poppins Light";
+}
+
+.about-me-highlights {
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 810px;
+  margin-right: 100px;
+  font-family: "Poppins Light";
+}
+.highlight-heading {
+  display: flex;
+  font-family: "Poppins Bold";
+  font-size: large;
+}
+.about-me-options {
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 600px;
+  margin-right: 100px;
+}
+
+.highlight {
+  display: flex;
+  font-size: 15px;
+}
+
+.highlight-blob::marker {
+  color: var(--dark-orange);
+  font-size: 15px;
+}
+
+
+

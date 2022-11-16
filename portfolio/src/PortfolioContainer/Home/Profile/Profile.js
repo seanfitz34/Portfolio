@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import "./Profile.css"
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -49,7 +49,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Knack of building applications with front and back end
+                Passion for building applications with front and back end
                 operations.
               </span>
             </span>
@@ -63,7 +63,7 @@ export default function Profile() {
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
-        </div>ç
+        </div>
         <div className="profile-picture">
           <div className="profile-picture-background"></div>
         </div>
