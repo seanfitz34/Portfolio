@@ -54,18 +54,15 @@ export default function AboutMe() {
 
             <div className="about-me-options"></div>
           </div>
-          <div className="about-me-picture">
-              <div className="about-me-picture-background"></div>
-            </div>
-          <div className="about-me-options">
-            <button className="btn primary-btn">
-              {""}
-              Hire Me{" "}
-            </button>
-            <a href="seanResume.pdf" download="Sean seanResume.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
-            </a>
-          </div>
+        </div>
+        <div className="about-me-options">
+          <button className="btn primary-btn">
+            {""}
+            Hire Me{" "}
+          </button>
+          <a href="seanResume.pdf" download="Sean seanResume.pdf">
+            <button className="btn highlighted-btn">Get Resume</button>
+          </a>
         </div>
       </div>
     </div>

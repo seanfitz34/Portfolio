@@ -6,8 +6,9 @@
   height: 10%;
   min-height: fit-content;
 }
-.about-me-parent{
-  display: flex;
+.about-me-parent {
+  width: 88%;
+  max-width: 1000px;
 }
 .heading-container h2 {
   font-family: "Poppins Bold";
@@ -20,28 +21,24 @@
 }
 
 .about-me-description {
-  position: absolute;
-  right: 0;
+  font-size: 14px;
   font-family: "Poppins Light";
-  font-size: 20px;
 }
 
 .about-me-highlights {
+  margin: 80px 0;
   font-family: "Poppins Light";
 }
-.highlight-heading {
-  display: flex;
-  font-family: "Poppins Bold";
-  font-size: 25px;
-}
+
 .about-me-options {
-  justify-content: center;
-  text-align: center;
+margin-top: 30px;
 }
 
 .highlight {
   display: flex;
-  font-size: 20px;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 12px;
 }
 
 .highlight-blob::marker {
@@ -55,12 +52,30 @@
   height: 380px;
   width: 380px;
 }
-.about-me-picture-background {
+.about-me-card {
+  display: flex;
+
+  width: 100%;
+}
+.about-me {
+  display: block;
+}
+.about-me-profile {
+  width: 50%;
   background-image: url(../../../assets/Home/sf.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 80%;
-  width: 80%;
 
-  border-radius: 5%;
+  background-repeat: no-repeat;
+}
+.about-me-details {
+  width: 48%;
+  text-align: justify;
+  padding: 30px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 50px;
 }
